@@ -1,32 +1,40 @@
 <html>
 <head>
   <title>MonkAI</title>
-  <link rel="stylesheet" href="monkai.css">
+  <link rel="stylesheet" href="/monkai.css">
+
 </head>
 <body>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/annyang/2.6.0/annyang.min.js"></script>
+  <script type="text/javascript" src="/monkai.js"></script>
+
 <div id="header">
   <h1><center>MonkAI</center></h1>
 </div>
 <!--<label for "text">Insert Text Here:</label>
 <center><input type='text'></input></center>-->
-<center><img src="monkey_face.JPEG" alt="monkey_face"></center>
+<center><video src="Monkey_Faces/monkey_face[3].mp4" id="monkey_vid" alt="monkey video" width="500"></center>
 <p>
+
+
 <center>
   <label for="languages" id="lanuage_text">Choose a Language:</label>
 
-<select name="languages" id="languages">
+<select name="languages" id="languages" onchange="FilePath(this.value);">
   <option value="null"></option>
-  <option value="arabic">Arabic</option>
   <option value="english">English</option>
   <option value="french">French</option>
+  <option value="japanese">Japanese</option>
   <option value="spanish">Spanish</option>
+  <option value="korean">Korean</option>
+  <option value="chinese">Chinese</option>
+
 </select>
 </center>
 
 <p>
-<center><button type="button" id="button">Speak</button></center>
-
-<link
+<center><button onclick="PlayVid();" type="button" id="button">Speak</button></center>
+<script type="text/javascript" src="monkai.js"></script>
 
 </body>
 </html>
