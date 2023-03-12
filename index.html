@@ -3,17 +3,23 @@
   <title>MonkAI</title>
   <link rel="stylesheet" href="/monkai.css">
 
+
 </head>
 <body>
   <script src="//cdnjs.cloudflare.com/ajax/libs/annyang/2.6.0/annyang.min.js"></script>
-  <script type="text/javascript" src="/monkai.js"></script>
+
 
 <div id="header">
   <h1><center>MonkAI</center></h1>
 </div>
 <!--<label for "text">Insert Text Here:</label>
 <center><input type='text'></input></center>-->
-<center><video src="Monkey_Faces/monkey_face[3].mp4" id="monkey_vid" alt="monkey video" width="500"></center>
+<center><video src="Monkey_Faces/English/monkey_face[0].mp4" id="monkey_vid" alt="monkey video" width="500"></center>
+<center><video src="Monkey_Faces/English/good.mp4" id="monkey2" alt="monkey video" width="500"></center>
+<center><video src="Monkey_Faces/English/howyou.mp4" id="monkey3" alt="monkey video" width="500"></center>
+<center><video src="Monkey_Faces/English/wonderful.mp4" id="monkey4" alt="monkey video" width="500"></center>
+<center><video src="Monkey_Faces/English/goodbyes.mp4" id="monkey5" alt="monkey video" width="500"></center>
+  <script type="text/javascript" src="/monkai.js"></script>
 <p>
 
 
@@ -24,17 +30,43 @@
   <option value="null"></option>
   <option value="english">English</option>
   <option value="french">French</option>
-  <option value="japanese">Japanese</option>
+  <!-- <option value="japanese">Japanese</option> -->
   <option value="spanish">Spanish</option>
   <option value="korean">Korean</option>
-  <option value="chinese">Chinese</option>
+  <option value="mandarin">Mandarin</option>
+  <option value="indonesian">Indonesian</option>
 
 </select>
 </center>
 
 <p>
-<center><button onclick="PlayVid();" type="button" id="button">Speak</button></center>
+<center><button onclick="PlayVid();" type="button" id="button">Start</button></center>
 <script type="text/javascript" src="monkai.js"></script>
+<center>
+<h3 id="head2">TRY TALKING TO MonkAI!</h3>
+<section>
+  <div class="column" id="column_1">
+    <ul>
+      <li>"Hello!"</li>
+      <li>"Hi!"</li>
+      <li>"Goodbye!"</li>
+    </ul>
+  </div>
+
+  <div class="column" id="column_2">
+    <ul>
+      <li>"How are you?"</li>
+      <li>"I'm doing well!"</li>
+      <li>"I'm good!"</li>
+    </ul>
+  </div>
+</section>
+</center>
+
+
+
+
+
 
 </body>
 </html>

@@ -1,7 +1,7 @@
 body {background-color: #192734}
 
 #header{
-  background-color: #F0EDE5;
+  background-color: #E7E1C9;
 }
 #header{
   font-family: copperplate,fantasy;
@@ -9,4 +9,53 @@ body {background-color: #192734}
 }
 #lanuage_text{
   color: #F0EDE5
+}
+section {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+
+  gap: 4px;
+  grid-auto-flow: column;
+}
+#head2{
+  font-size: 50px;
+  color: #E7E1C9;
+  padding-bottom: 1px;
+  margin-bottom: 1px;
+}
+
+.column{
+  font-size: 25px;
+}
+
+#column_1{
+  padding-right: 45px;
+  color: #E7E1C9;
+}
+#column_2{
+  color: #E7E1C9;
+}
+#monkey_vid{
+  transition-duration: all .0001s;
+  display: block;
+
+}
+#monkey2{
+  display : none;
+  transition-duration: all .0001s;
+}
+
+}
+#monkey3{
+  display : none;
+  transition-duration: all .0001s
+}
+#monkey4{
+  display : none;
+  transition-duration: all .0001s;
+}
+#monkey5{
+  display : none;
+  transition-duration: all .0001s;
 }
