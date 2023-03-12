@@ -3,6 +3,10 @@ body {background-color: #192734}
 #header{
   background-color: #F0EDE5;
 }
+#header{
+  font-family: copperplate,fantasy;
+  font-size: 40px;
+}
 #lanuage_text{
   color: #F0EDE5
 }
